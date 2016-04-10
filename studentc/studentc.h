@@ -26,5 +26,6 @@ public:
 	friend std::ostream& operator<<(ostream& os, const Student &stu);
 	friend std::istream& operator>>(istream& in,Student& stu);
 	friend std::istream& getline(istream& in, Student & stu);
+	friend std::is;
 };
 #endif // !_STUDENT_H
